@@ -16,7 +16,7 @@ MENU = [
 ]
 
 # The log file where all mock POS transactions will be recorded.
-FILE_NAME = "pos_legacy_log.csv"
+FILE_NAME = "mock_pos.csv"
 
 def generate_mock_data():
     """Continuously generates random point-of-sale (POS) orders and appends them to a CSV file."""
