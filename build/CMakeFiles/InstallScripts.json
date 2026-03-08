@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/itaide-beer/LegacyBridge/build/cmake_install.cmake",
+		"/Users/itaide-beer/LegacyBridge/build/_deps/json-build/cmake_install.cmake",
+		"/Users/itaide-beer/LegacyBridge/build/_deps/httplib-build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

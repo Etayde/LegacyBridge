@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/Users/itaide-beer/LegacyBridge/build",
+  "command": "/usr/bin/c++ -DCPPHTTPLIB_OPENSSL_SUPPORT -DCPPHTTPLIB_USE_CERTS_FROM_MACOSX_KEYCHAIN -DCPPHTTPLIB_ZLIB_SUPPORT -I/Users/itaide-beer/LegacyBridge/include -I/Users/itaide-beer/LegacyBridge/build/_deps/json-src/include -isystem /Users/itaide-beer/LegacyBridge/build/_deps/httplib-src -isystem /opt/homebrew/Cellar/openssl@3/3.6.0/include -std=gnu++17 -arch arm64 -o CMakeFiles/LegacyBridge.dir/main.cpp.o -c /Users/itaide-beer/LegacyBridge/main.cpp",
+  "file": "/Users/itaide-beer/LegacyBridge/main.cpp",
+  "output": "CMakeFiles/LegacyBridge.dir/main.cpp.o"
+},
+{
+  "directory": "/Users/itaide-beer/LegacyBridge/build",
+  "command": "/usr/bin/c++ -DCPPHTTPLIB_OPENSSL_SUPPORT -DCPPHTTPLIB_USE_CERTS_FROM_MACOSX_KEYCHAIN -DCPPHTTPLIB_ZLIB_SUPPORT -I/Users/itaide-beer/LegacyBridge/include -I/Users/itaide-beer/LegacyBridge/build/_deps/json-src/include -isystem /Users/itaide-beer/LegacyBridge/build/_deps/httplib-src -isystem /opt/homebrew/Cellar/openssl@3/3.6.0/include -std=gnu++17 -arch arm64 -o CMakeFiles/LegacyBridge.dir/utils.cpp.o -c /Users/itaide-beer/LegacyBridge/utils.cpp",
+  "file": "/Users/itaide-beer/LegacyBridge/utils.cpp",
+  "output": "CMakeFiles/LegacyBridge.dir/utils.cpp.o"
+},
+{
+  "directory": "/Users/itaide-beer/LegacyBridge/build",
+  "command": "/usr/bin/c++ -DCPPHTTPLIB_OPENSSL_SUPPORT -DCPPHTTPLIB_USE_CERTS_FROM_MACOSX_KEYCHAIN -DCPPHTTPLIB_ZLIB_SUPPORT -I/Users/itaide-beer/LegacyBridge/include -I/Users/itaide-beer/LegacyBridge/build/_deps/json-src/include -isystem /Users/itaide-beer/LegacyBridge/build/_deps/httplib-src -isystem /opt/homebrew/Cellar/openssl@3/3.6.0/include -std=gnu++17 -arch arm64 -o CMakeFiles/LegacyBridge.dir/POSWatchdog.cpp.o -c /Users/itaide-beer/LegacyBridge/POSWatchdog.cpp",
+  "file": "/Users/itaide-beer/LegacyBridge/POSWatchdog.cpp",
+  "output": "CMakeFiles/LegacyBridge.dir/POSWatchdog.cpp.o"
+},
+{
+  "directory": "/Users/itaide-beer/LegacyBridge/build",
+  "command": "/usr/bin/c++ -DCPPHTTPLIB_OPENSSL_SUPPORT -DCPPHTTPLIB_USE_CERTS_FROM_MACOSX_KEYCHAIN -DCPPHTTPLIB_ZLIB_SUPPORT -I/Users/itaide-beer/LegacyBridge/include -I/Users/itaide-beer/LegacyBridge/build/_deps/json-src/include -isystem /Users/itaide-beer/LegacyBridge/build/_deps/httplib-src -isystem /opt/homebrew/Cellar/openssl@3/3.6.0/include -std=gnu++17 -arch arm64 -o CMakeFiles/LegacyBridge.dir/CloudUploader.cpp.o -c /Users/itaide-beer/LegacyBridge/CloudUploader.cpp",
+  "file": "/Users/itaide-beer/LegacyBridge/CloudUploader.cpp",
+  "output": "CMakeFiles/LegacyBridge.dir/CloudUploader.cpp.o"
+}
+]
