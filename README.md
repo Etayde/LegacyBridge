@@ -57,12 +57,12 @@ LegacyBridge is built around a **decoupled Producer-Consumer architecture**. `PO
 ┌─────────────────────────────────────────────────────────────────────┐
 │                          LegacyBridge Agent                         │
 │                                                                     │
-│   ┌──────────────────┐    Buffer (utils.h)    ┌──────────────────┐  │
+│   ┌──────────────────┐    Buffer (utils.h)     ┌─────────────────┐  │
 │   │   POSWatcher     │ ──── std::mutex ───────▶│  CloudUploader  │  │
 │   │   (Producer)     │   std::condition_var    │   (Consumer)    │  │
 │   │                  │                         │                 │  │
 │   │  seekg / tellg   │      OrderInfo          │  cpp-httplib    │  │
-│   │  2s poll cycle   │      queue<T>           │  Retry (5x/3s) │  │
+│   │  2s poll cycle   │      queue<T>           │  Retry (5x/3s)  │  │
 │   └────────┬─────────┘                         └──────┬──────────┘  │
 │            │                                          │             │
 └────────────┼──────────────────────────────────────────┼─────────────┘
